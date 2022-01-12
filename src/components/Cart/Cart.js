@@ -15,6 +15,8 @@ const Cart = (props) => {
     cartCtx.removeItem(id);
   };
 
+  /* i did sumtin */
+
   const cartItemAddHandler = (item) => {
     cartCtx.addItem({ ...item, amount: 1 });
   };
